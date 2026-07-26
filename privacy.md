@@ -17,7 +17,7 @@ If you use the Apple Watch companion, game information is shared between your iP
 The optional "Live Share" feature uses your local network to mirror a game to nearby devices you control. This is a direct, device-to-device connection on your own Wi-Fi network. No game data passes through us or any third party.
 
 ## Sharing a Saved Game
-If you choose to send a saved game to another coach, the App creates an encrypted file that you share using your own apps (for example Messages, Mail, or AirDrop). We are not involved in that transfer and never receive the file.
+If you choose to send a saved game to another coach, the App creates an encrypted file that you share using your own apps (for example AirDrop, Mail, or Messages). Because the file is encrypted, the recipient saves it to their device (for example with "Save to Files") and then opens it in the App to import it; it does not open directly from within Messages. We are not involved in that transfer and never receive the file.
 
 ## Third Parties
 The App contains no third-party advertising, no third-party analytics, and no third-party software development kits that collect data.
