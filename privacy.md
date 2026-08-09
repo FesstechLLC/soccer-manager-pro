@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Soccer Manager Pro · Last updated: July 26, 2026**
+**Soccer Manager Pro · Last updated: August 8, 2026**
 
 Soccer Manager Pro (the "App") is designed to respect your privacy. We do not collect, store, or share any personal data. This policy explains what that means in practice.
 
@@ -9,6 +9,11 @@ Soccer Manager Pro (the "App") is designed to respect your privacy. We do not co
 
 ## Where Your Data Lives
 Everything you create in the App — rosters, formations, game timers, scores, substitution history, and saved games — is stored **only on your device**. We have no servers and never receive a copy of your data.
+
+## Purchases & Subscriptions
+Soccer Manager Pro offers an auto‑renewing subscription (with a free trial) that unlocks the app. All payments, billing, free‑trial management, renewals, and cancellations are handled **entirely by Apple** through your App Store account. We never see or store your name, payment card, or Apple ID.
+
+To unlock the app across your devices and honor your free trial, the App asks Apple's on‑device StoreKit whether your Apple ID currently has an active subscription (or a qualifying earlier purchase). This check happens on your device, and the result is not transmitted to us. Apple's handling of your purchase is governed by Apple's own Privacy Policy.
 
 ## Apple Watch
 If you use the Apple Watch companion, game information is shared between your iPhone and your paired Apple Watch using Apple's standard on-device connectivity. This data stays on your devices.
@@ -20,7 +25,7 @@ The optional "Live Share" feature uses your local network to mirror a game to ne
 If you choose to send a saved game to another coach, the App creates an encrypted file that you share using your own apps (for example AirDrop, Mail, or Messages). Because the file is encrypted, the recipient saves it to their device (for example with "Save to Files") and then opens it in the App to import it; it does not open directly from within Messages. We are not involved in that transfer and never receive the file.
 
 ## Third Parties
-The App contains no third-party advertising, no third-party analytics, and no third-party software development kits that collect data.
+The App contains no third-party advertising, no third-party analytics, and no third-party software development kits that collect data. Payment processing is performed by Apple, not by us.
 
 ## Children's Privacy
 Because the App collects no data, it collects no data from children. It is suitable for all ages.

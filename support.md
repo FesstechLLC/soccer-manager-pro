@@ -1,6 +1,6 @@
 # Soccer Manager Pro — Support
 
-**Last updated: July 26, 2026**
+**Last updated: August 8, 2026**
 
 Thanks for using Soccer Manager Pro! Most questions are answered below. If you need more help, we're happy to hear from you.
 
@@ -54,6 +54,34 @@ Because the file is encrypted, it can't be opened straight from the Messages con
 3. Soccer Manager Pro launches and asks you to confirm the import.
 
 Tip: **AirDrop** is the quickest way to share between two devices — the receiving device opens the app and prompts to import automatically.
+
+## Subscription & Billing
+
+**How much does Soccer Manager Pro cost?**
+Soccer Manager Pro is an auto‑renewing subscription: **7 days free, then $4.99 per year**. The free trial gives you full access to everything on both iPhone and iPad. Prices may vary by region and are shown in the app before you subscribe.
+
+**Do I need to pay separately on my iPhone and iPad?**
+No. One subscription covers all your devices — iPhone and iPad — as long as they're signed in to the same Apple ID. It's also Family Sharing–eligible, so your family group can share it.
+
+**When am I charged?**
+Nothing is charged during the 7‑day free trial. Unless you cancel at least 24 hours before the trial ends, your subscription begins automatically and your Apple ID is charged the yearly price. It then renews once a year until you cancel.
+
+**How do I cancel or manage my subscription?**
+Everything is managed through Apple, not inside the app:
+1. Open the **Settings** app and tap your name at the top.
+2. Tap **Subscriptions**.
+3. Select **Soccer Manager Pro** and choose **Cancel Subscription** (or change your plan).
+
+Canceling stops the next renewal; you keep access until the end of the current period. Cancel before the trial ends and you won't be charged.
+
+**I already paid / used the app before — do I have to subscribe?**
+No. If you owned an earlier paid version or the previous one‑time iPad unlock, or you downloaded the app before it moved to a subscription, you keep full access for free. If a device doesn't recognize this, tap **Restore Purchase** on the subscription screen.
+
+**I subscribed but a device is asking me to pay again.**
+Make sure the device is signed in to the same Apple ID you used to subscribe, then tap **Restore Purchase** on the subscription screen. Restoring re‑checks your Apple ID and unlocks the app at no extra charge.
+
+**How do I get a refund?**
+Refunds for App Store purchases are handled by Apple. Visit **reportaproblem.apple.com**, sign in with your Apple ID, and request a refund for Soccer Manager Pro.
 
 ## Data & Privacy
 
