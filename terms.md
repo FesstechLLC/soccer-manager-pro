@@ -40,7 +40,7 @@ Your use of the App is also governed by our Privacy Policy, which explains that 
 We may update these Terms from time to time. The updated version will be posted on this page with a new "Last updated" date. Continued use of the App after changes take effect constitutes acceptance of the updated Terms.
 
 ## Governing Law
-These Terms are governed by the laws of the United States and the State of [Your State], without regard to conflict‑of‑laws principles, except where superseded by Apple's Standard EULA or applicable consumer‑protection law.
+These Terms are governed by the laws of the United States and the State of Missouri, without regard to conflict‑of‑laws principles, except where superseded by Apple's Standard EULA or applicable consumer‑protection law.
 
 ## Contact
 Questions about these Terms? Contact soccermanager@fesstech.com
