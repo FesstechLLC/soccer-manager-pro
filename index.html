@@ -3,120 +3,232 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Soccer Manager Pro — Privacy Policy</title>
+    <title>Soccer Manager Pro — Fair playing time, effortless subs</title>
+    <meta name="description" content="Soccer Manager Pro helps youth and rec coaches track playing time, make fast substitutions, and run the game from iPhone, iPad, and Apple Watch. Try free for 7 days.">
     <style>
-        :root { color-scheme: light dark; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 2rem 1.25rem 4rem;
-            color: #1c1c1e;
-            background: #ffffff;
+        :root {
+            color-scheme: light dark;
+            --bg: #ffffff;
+            --fg: #1c1c1e;
+            --muted: #6b7280;
+            --card: #f5f6f8;
+            --accent: #1f9d55;      /* pitch green */
+            --accent-2: #007aff;    /* iOS blue */
+            --border: rgba(0,0,0,0.08);
         }
         @media (prefers-color-scheme: dark) {
-            body { color: #f2f2f7; background: #000000; }
-            a { color: #0a84ff; }
+            :root {
+                --bg: #000000;
+                --fg: #f2f2f7;
+                --muted: #9aa0a6;
+                --card: #121316;
+                --border: rgba(255,255,255,0.10);
+            }
         }
-        h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
-        h2 { font-size: 1.15rem; margin-top: 2rem; }
-        .updated { color: #8e8e93; font-size: 0.9rem; margin-top: 0; }
-        a { color: #007aff; }
-        footer { margin-top: 3rem; color: #8e8e93; font-size: 0.85rem; }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--fg);
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent-2); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .wrap { max-width: 960px; margin: 0 auto; padding: 0 1.25rem; }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 4.5rem 1.25rem 3rem;
+            background:
+                radial-gradient(1200px 400px at 50% -120px, rgba(31,157,85,0.18), transparent 70%);
+        }
+        .logo {
+            width: 104px; height: 104px; margin: 0 auto 1.25rem;
+            border-radius: 24px;
+            object-fit: cover;
+            box-shadow: 0 12px 30px rgba(31,157,85,0.35);
+        }
+        .hero h1 { font-size: 2.4rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
+        .hero .tagline { font-size: 1.2rem; color: var(--muted); margin: 0 auto 1.5rem; max-width: 34ch; }
+        .trial-pill {
+            display: inline-block; font-weight: 600; font-size: 0.95rem;
+            color: var(--accent); background: rgba(31,157,85,0.12);
+            border: 1px solid rgba(31,157,85,0.3);
+            padding: 0.4rem 0.9rem; border-radius: 999px; margin-bottom: 1.75rem;
+        }
+        .cta-row { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+        .btn {
+            display: inline-block; font-weight: 600;
+            padding: 0.85rem 1.5rem; border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .btn-primary { background: var(--accent-2); color: #fff; border-color: transparent; }
+        .btn-primary:hover { text-decoration: none; opacity: 0.92; }
+        .btn-secondary { background: var(--card); color: var(--fg); }
+        .btn-secondary:hover { text-decoration: none; }
+
+        /* Sections */
+        section { padding: 2.5rem 0; }
+        h2 { font-size: 1.5rem; text-align: center; margin: 0 0 1.75rem; letter-spacing: -0.01em; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+        .feature {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 1.25rem;
+        }
+        .feature .ic { font-size: 1.6rem; margin-bottom: 0.5rem; }
+        .feature h3 { margin: 0 0 0.35rem; font-size: 1.08rem; }
+        .feature p { margin: 0; color: var(--muted); font-size: 0.97rem; }
+
+        /* Screenshots */
+        .shots {
+            display: flex; gap: 1rem; overflow-x: auto; padding: 0.5rem 0 1rem;
+            scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+        }
+        .shots figure {
+            margin: 0; flex: 0 0 auto; scroll-snap-align: center; text-align: center;
+        }
+        .shots img {
+            display: block; height: 460px; width: auto; border-radius: 20px;
+            border: 1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+            background: var(--card);
+        }
+        .shots figcaption { margin-top: 0.6rem; color: var(--muted); font-size: 0.9rem; }
+        @media (max-width: 640px) { .shots img { height: 380px; } }
+
+        .platforms { text-align: center; color: var(--muted); }
+        .platforms .row { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+        .platforms .row div { font-size: 1rem; }
+        .platforms .row .big { font-size: 1.8rem; display: block; margin-bottom: 0.25rem; }
+
+        .promise {
+            text-align: center; background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 1.75rem; margin: 0 auto; max-width: 640px;
+        }
+        .promise p { margin: 0.35rem 0; color: var(--muted); }
+        .promise strong { color: var(--fg); }
+
+        footer {
+            border-top: 1px solid var(--border); margin-top: 2rem;
+            padding: 2rem 1.25rem 3rem; text-align: center; color: var(--muted); font-size: 0.9rem;
+        }
+        footer .links { margin-bottom: 0.75rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p class="updated">Soccer Manager Pro &middot; Last updated: August 8, 2026</p>
 
-    <p>
-        Soccer Manager Pro (the &ldquo;App&rdquo;) is designed to respect your privacy.
-        We do not collect, store, or share any personal data. This policy explains
-        what that means in practice.
-    </p>
+    <header class="hero">
+        <img class="logo" src="./logo.png" alt="Soccer Manager Pro app icon" width="104" height="104">
+        <h1>Soccer Manager Pro</h1>
+        <p class="tagline">Fair playing time and stress-free substitutions for youth &amp; rec coaches.</p>
+        <div class="trial-pill">Try everything free for 7 days</div>
+        <div class="cta-row">
+            <a class="btn btn-primary" href="https://apps.apple.com/app/soccer-manager-pro/id0000000000">Download on the App Store</a>
+            <a class="btn btn-secondary" href="#features">See features</a>
+        </div>
+    </header>
 
-    <h2>Data We Collect</h2>
-    <p>
-        <strong>None.</strong> The App does not collect any personal information.
-        There are no accounts, no logins, and no analytics or tracking of any kind.
-    </p>
+    <main>
+        <section id="features" class="wrap">
+            <h2>Everything you need on the sideline</h2>
+            <div class="grid">
+                <div class="feature">
+                    <div class="ic" aria-hidden="true">⏱️</div>
+                    <h3>Fair playing time</h3>
+                    <p>Live meters on every player show total minutes, current stint, and bench rest — and flash when it's time to sub.</p>
+                </div>
+                <div class="feature">
+                    <div class="ic" aria-hidden="true">🔁</div>
+                    <h3>Fast substitutions</h3>
+                    <p>Tap to move, sub, or swap. Stage several changes and commit them all at once with a single tap.</p>
+                </div>
+                <div class="feature">
+                    <div class="ic" aria-hidden="true">✏️</div>
+                    <h3>iPad tactical board</h3>
+                    <p>A full-field whiteboard with draggable players, a ball, opponent markers, movement trails, and Apple Pencil drawing.</p>
+                </div>
+                <div class="feature">
+                    <div class="ic" aria-hidden="true">📡</div>
+                    <h3>Live Share</h3>
+                    <p>Host on your phone and coach from the iPad — scores, clock, roster, and subs stay in sync in real time.</p>
+                </div>
+                <div class="feature">
+                    <div class="ic" aria-hidden="true">⌚️</div>
+                    <h3>Apple Watch</h3>
+                    <p>The game on your wrist: clock, score, field players, and the same sub, hydration, and half-time alerts.</p>
+                </div>
+                <div class="feature">
+                    <div class="ic" aria-hidden="true">🗒️</div>
+                    <h3>Sub history &amp; field log</h3>
+                    <p>Every change is logged with the game time, and a position grid shows each player's minutes and goals.</p>
+                </div>
+            </div>
+        </section>
 
-    <h2>Where Your Data Lives</h2>
-    <p>
-        Everything you create in the App &mdash; rosters, formations, game timers,
-        scores, substitution history, and saved games &mdash; is stored
-        <strong>only on your device</strong>. We have no servers and never receive
-        a copy of your data.
-    </p>
+        <section id="screenshots" class="wrap" hidden>
+            <h2>See it in action</h2>
+            <div class="shots">
+                <figure><img src="./screenshots/iphone-field.png" alt="iPhone — field and lineup"><figcaption>Field &amp; lineup</figcaption></figure>
+                <figure><img src="./screenshots/iphone-subs.png" alt="iPhone — staging substitutions"><figcaption>Stage subs</figcaption></figure>
+                <figure><img src="./screenshots/ipad-tactical.png" alt="iPad — tactical board"><figcaption>Tactical board</figcaption></figure>
+                <figure><img src="./screenshots/ipad-manager.png" alt="iPad — manager dashboard"><figcaption>iPad manager</figcaption></figure>
+                <figure><img src="./screenshots/watch.png" alt="Apple Watch — live game"><figcaption>Apple Watch</figcaption></figure>
+            </div>
+        </section>
 
-    <h2>Purchases &amp; Subscriptions</h2>
-    <p>
-        Soccer Manager Pro offers an auto-renewing subscription (with a free trial) that
-        unlocks the app. All payments, billing, free-trial management, renewals, and
-        cancellations are handled <strong>entirely by Apple</strong> through your App Store
-        account. We never see or store your name, payment card, or Apple ID.
-    </p>
-    <p>
-        To unlock the app across your devices and honor your free trial, the App asks
-        Apple&rsquo;s on-device StoreKit whether your Apple ID currently has an active
-        subscription (or a qualifying earlier purchase). This check happens on your device,
-        and the result is not transmitted to us. Apple&rsquo;s handling of your purchase is
-        governed by Apple&rsquo;s own Privacy Policy.
-    </p>
+        <section class="wrap platforms">
+            <h2>One subscription, every device</h2>
+            <div class="row">
+                <div><span class="big" aria-hidden="true">📱</span>iPhone</div>
+                <div><span class="big" aria-hidden="true">🅿️</span>iPad</div>
+                <div><span class="big" aria-hidden="true">⌚️</span>Apple Watch</div>
+            </div>
+            <p style="margin-top:1rem;">7 days free, then one subscription unlocks the whole app on all your devices. Family Sharing supported.</p>
+        </section>
 
-    <h2>Apple Watch</h2>
-    <p>
-        If you use the Apple Watch companion, game information is shared between your
-        iPhone and your paired Apple Watch using Apple&rsquo;s standard on-device
-        connectivity. This data stays on your devices.
-    </p>
+        <section class="wrap">
+            <div class="promise">
+                <p><strong>Private by design.</strong></p>
+                <p>No ads. No accounts. Your rosters and games stay on your device — we never collect your data.</p>
+            </div>
+        </section>
+    </main>
 
-    <h2>Live Share (Local Network)</h2>
-    <p>
-        The optional &ldquo;Live Share&rdquo; feature uses your local network to
-        mirror a game to nearby devices you control. This is a direct,
-        device-to-device connection on your own Wi-Fi network. No game data passes
-        through us or any third party.
-    </p>
+    <footer>
+        <div class="links">
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./terms.html">Terms of Use</a>
+            <a href="./support.html">Support</a>
+            <a href="mailto:soccermanager@fesstech.com">Contact</a>
+        </div>
+        <div>&copy; 2026 Fesstech. All rights reserved.</div>
+    </footer>
 
-    <h2>Sharing a Saved Game</h2>
-    <p>
-        If you choose to send a saved game to another coach, the App creates an
-        encrypted file that you share using your own apps (for example AirDrop, Mail,
-        or Messages). Because the file is encrypted, the recipient saves it to their
-        device (for example with &ldquo;Save to Files&rdquo;) and then opens it in the
-        App to import it; it does not open directly from within Messages. We are not
-        involved in that transfer and never receive the file.
-    </p>
+    <script>
+        // Show the screenshots section only for images that actually exist. Any missing file
+        // removes its figure; if none load, the whole section stays hidden — so there are never
+        // broken-image icons. Drop PNGs in ./screenshots/ (see filenames above) to populate it.
+        (function () {
+            var section = document.getElementById('screenshots');
+            if (!section) return;
+            var figures = Array.prototype.slice.call(section.querySelectorAll('figure'));
+            var pending = figures.length;
+            function done() {
+                if (--pending > 0) return;
+                if (section.querySelector('figure')) section.hidden = false;
+            }
+            figures.forEach(function (fig) {
+                var img = fig.querySelector('img');
+                if (img.complete && img.naturalWidth > 0) { done(); return; }
+                img.addEventListener('load', done);
+                img.addEventListener('error', function () { fig.remove(); done(); });
+            });
+        })();
+    </script>
 
-    <h2>Third Parties</h2>
-    <p>
-        The App contains no third-party advertising, no third-party analytics, and
-        no third-party software development kits that collect data. Payment processing
-        is performed by Apple, not by us.
-    </p>
-
-    <h2>Children&rsquo;s Privacy</h2>
-    <p>
-        Because the App collects no data, it collects no data from children. It is
-        suitable for all ages.
-    </p>
-
-    <h2>Changes to This Policy</h2>
-    <p>
-        If this policy ever changes, the updated version will be posted on this page
-        with a new &ldquo;Last updated&rdquo; date.
-    </p>
-
-    <h2>Contact</h2>
-    <p>
-        Questions about this policy? Contact
-        <a href="mailto:soccermanager@fesstech.com">soccermanager@fesstech.com</a>.
-    </p>
-
-    <p><a href="./support.html">Support &amp; FAQ &rarr;</a> &nbsp;&middot;&nbsp; <a href="./terms.html">Terms of Use &rarr;</a></p>
-
-    <footer>&copy; 2026 Fesstech. All rights reserved.</footer>
 </body>
 </html>
