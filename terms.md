@@ -17,7 +17,7 @@ Soccer Manager Pro is offered as an **auto‑renewing subscription** that unlock
 - **Auto‑renewal:** The subscription renews automatically for the same period unless you turn off auto‑renew at least 24 hours before the end of the current period. Your Apple ID is charged for renewal within 24 hours before the end of the current period.
 - **Managing and canceling:** You can manage or cancel your subscription any time in the App Store: **Settings → [your name] → Subscriptions**. Canceling stops future renewals; you retain access until the end of the current period. Uninstalling the App does not cancel a subscription.
 - **Existing and legacy users:** Users who purchased an earlier paid version or the previous one‑time iPad unlock, or who first downloaded the App before it became subscription‑based, retain full access at no additional charge.
-- **One subscription, all your devices:** A single subscription covers your iPhone and iPad signed in to the same Apple ID and is eligible for Family Sharing.
+- **One subscription, all your devices:** A single subscription covers your iPhone and iPad signed in to the same Apple ID.
 
 Payments, refunds, and subscription management are handled by Apple. Refund requests are subject to Apple's policies (see https://reportaproblem.apple.com).
 

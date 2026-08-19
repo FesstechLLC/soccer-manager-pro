@@ -61,7 +61,7 @@ Tip: **AirDrop** is the quickest way to share between two devices — the receiv
 Soccer Manager Pro is an auto‑renewing subscription: **7 days free, then $4.99 per year**. The free trial gives you full access to everything on both iPhone and iPad. Prices may vary by region and are shown in the app before you subscribe.
 
 **Do I need to pay separately on my iPhone and iPad?**
-No. One subscription covers all your devices — iPhone and iPad — as long as they're signed in to the same Apple ID. It's also Family Sharing–eligible, so your family group can share it.
+No. One subscription covers all your devices — iPhone and iPad — as long as they're signed in to the same Apple ID.
 
 **When am I charged?**
 Nothing is charged during the 7‑day free trial. Unless you cancel at least 24 hours before the trial ends, your subscription begins automatically and your Apple ID is charged the yearly price. It then renews once a year until you cancel.
